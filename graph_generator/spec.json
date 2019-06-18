@@ -1,0 +1,15 @@
+﻿{
+	vertices: 
+		[
+			{ "label": "v1", "numberOfproperties": 10, "count": 10 },
+			{ "label": "v2", "numberOfproperties": 5, "count": 100 },
+			{ "label": "v3", "numberOfproperties": 3, "count": 20 }
+		],
+	edges: 
+		[
+			{"label": "e1", "from": "v1", "to": "v2", "minCount": 3, "maxCount": 10, "numberOfproperties": 3 },
+			{"label": "e2", "from": "v2", "to": "v3", "minCount": 0, "maxCount": 5, "numberOfproperties": 1 },
+			{"label": "e3", "from": "v1", "to": "v3", "minCount": 14, "maxCount": 15, "numberOfproperties": 4  },
+			{"label": "e4", "from": "v3", "to": "v1", "minCount": 3, "maxCount": 5, "numberOfproperties": 5 }
+		]
+}
